@@ -1,0 +1,17 @@
+{
+  "name": "toman-exchange-telegram-bot",
+  "version": "1.0.0",
+  "description": "ربات تلگرام معاملات تومان و صرافی برای استقرار در Render و گیت‌هاب",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
